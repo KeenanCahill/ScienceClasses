@@ -1,0 +1,334 @@
+* {
+			box-sizing: border-box;
+		}
+
+
+header {
+	background-color: Black;
+	background-image: url(Music.JPG);
+	background-repeat: no-repeat;
+	height: 150px;
+	background-position: center;
+	display: block;
+	}
+
+aside {
+	width: 200px;
+	float: right;
+	padding: 2em;
+	text-align: left;
+}
+
+.floatright {
+	float: right;
+	margin-right: 7em;
+	padding: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+h1 {
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+h2, h3 {
+	text-align: center;
+	padding: 1em;
+}
+
+p {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #b6732f;
+  text-align: center;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:link {
+		color: White;
+	}
+	
+	nav a:visited {
+		color: #FFFF00;
+	}
+	
+	nav a:hover { 
+			background-color: #eaccae;
+	
+			}
+
+
+
+body { 
+    font-family: Verdana, Arial, sans-serif;
+	background-image: linear-gradient(180deg, #eaccae, #daa671, #cb8034, #513315);
+	
+	}
+	
+main {
+padding-left: 2em;
+padding-right: 2em;
+margin-left: 170px;
+padding-top: 1em;
+display: block;
+}
+
+#wrapper { 
+	width: 80%;
+	background-color: #F5F5F5; 
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 1200px;
+	max-width: 1480px;
+	}
+
+section {
+	width: 78%;
+	padding: 1em;
+	margin-left: 0.5em;
+	margin-right: 1em;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	background-color: #ff9999;
+	border-style: solid;
+	text-align: center;
+}
+
+section form {
+	padding: 1em;
+}
+
+form {
+	padding: 3em;
+}
+
+input {
+	display: block;
+	margin-bottom: 1em;
+	background-color: Black;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+	input:hover[type="submit"] 
+		{
+			background: #808080;
+		}
+
+footer { 
+	background-color: #b6732f;	
+	font-size: .800em;
+	font-style: italic; 
+	text-align: center;
+	padding: 1em;
+	display: block;
+	}
+
+
+	
+table {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-top: auto;
+	font-size: 75%;
+	text-align: center;
+	transform: translate(-1.2em, 0);
+	
+	
+}
+	
+table.table {
+	width: 61%;
+	
+	border-style: solid;
+	border-color: black;
+	border-collapse: collapse;
+	margin-bottom: 3em;
+	
+}
+
+table.table td, table.schedule th {
+	padding: 5px;
+}
+
+tr:nth-of-type(odd) {
+	background-color: #ff9999;
+}
+
+table.table caption {
+	margin: 1em;
+	font-weight: bold;
+	font-size: 180%;
+	text-align: center;
+} 
+
+#mobile {
+	display: none;
+}
+
+#desktop {
+	display: inline;
+}
+
+.clear {
+	clear: both;
+}
+
+#astroimg img {
+	width: 78%;
+	height: auto;
+}
+
+#chemimg img {
+	width: 78.5%;
+	height: auto;
+}
+
+#electimg img {
+	width: 78.5%;
+	height: auto;
+}
+
+#enginimg img {
+	width: 78.5%;
+	height: auto;
+}
+
+#physicsimg img {
+	width: 78.5%;
+	height: auto;
+}
+
+@media only all and (max-width: 768px) {
+
+
+
+body {
+	margin: 0;
+	padding: 0em;
+}
+
+
+aside {
+	display: none;
+}
+
+#wrapper {
+	width: 100%;
+	min-width: 0;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	padding-top: 1px;
+}
+
+h1 {
+	padding-top: 1em;
+
+}
+
+
+main {
+	padding-top: 2.5em;
+	padding-bottom: 2.5em;
+	padding-left: 1em;
+	padding-right: 1em;
+	margin: 0;
+	font-size: 90%;
+	clear: both;
+}
+
+section {
+	width: 97.5%;
+
+}
+
+
+h1 {
+	text-align: center;
+}
+
+h3  {
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+p  {
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+
+.floatright {
+display: block;
+padding-left: 5em;
+padding-right: 5em;
+}
+
+table.table {
+	width: 80%;
+}
+
+footer {
+padding: 0.5em;
+margin: 0;
+}
+
+#mobile {
+	display: inline;
+}
+
+#desktop {
+	display: none;
+}
+
+#astroimg img {
+	display: none;
+}
+
+#chemimg img {
+	display: none;
+}
+
+#electimg img {
+	display: none;
+}
+
+#enginimg img {
+	display: none;
+}
+
+#physicsimg img {
+	display: none;
+}
+
+
+}
+
+	
